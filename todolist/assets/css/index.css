@@ -1,0 +1,162 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	width:100%;
+	height:auto;
+}
+
+.mytask-header{
+	width:100%;
+	height:70px;
+}
+
+.mytask-header-content{
+	width:100%;
+	height:100%;
+}
+
+.mytask-bar{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding:15px 15px;
+}
+
+
+.mytask-body{
+	width:100%;
+	height:auto;
+}
+
+.mytask-body-content{
+	width:100%;
+	height:100%;
+
+}
+
+.todolist-form{
+	width:100%;
+	height:440px;
+	display:flex;
+	justify-content: center;
+	padding:10px 10px;
+}
+
+.todolist-form form{
+	width:70%;
+	heigth:150px;
+}
+
+#config-form form{
+	width:50%;
+}
+
+.todolist-result{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:center;
+}
+
+#t {
+	width:80%;
+	height:auto;
+}
+
+#t td{
+	width:10%;
+}
+
+#modal-task-content{
+	width:80%;
+	height:60%;
+	padding:30px 30px;
+	text-align:center;
+	overflow:scroll;
+}
+  
+#modal-task-content textarea{
+	width:100%;
+	height:100%;
+}
+
+
+#see-content{
+	width:100%;
+	height:100%;
+	border:1px solid white;
+	overflow-wrap:break-word;
+	margin-top:10px;
+	padding:10px 10px;
+}
+
+.login-container{
+	width:100%;
+	height:900px;
+}
+
+.log-title{
+	width:100%;
+	height:25%;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.log-title h1{
+	font-size:60px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.login-text{
+	width:100%;
+	height:70%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-right:1px solid black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.login-text h2{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.login-form{
+	width:100%;
+	height:80%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.login-form form{
+	width:50%;
+	height:auto;
+}
+
+.login-form h2{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*---------- MEDIA -------------- */
+
+
+@media(min-width: 360px) and (max-width:580px) {
+	#current-user, #id-explain {
+		font-size:10px;
+		margin-top:3px;
+	}
+
+	.todolist-form form {
+		width:90%;
+	}
+
+	#config-form{
+		width:90%;
+	}
+}

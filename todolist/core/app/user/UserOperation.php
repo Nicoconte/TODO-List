@@ -170,7 +170,7 @@ class UserOP {
 					    $mail->Host       = 'smtp.gmail.com';                    
 					    $mail->SMTPAuth   = true;                                  
 					    $mail->Username   = 'nicoconte1999@gmail.com';                    
-					    $mail->Password   = 'Hellyeah123';                             
+					    $mail->Password   = '****';                             
 					    $mail->SMTPSecure = 'tls';        
 					    $mail->Port       = 587;                              
 
